@@ -1,6 +1,7 @@
 // Copyright 2021 NNTU-CS
 
-int gcd(int a, int b) {
+int gcd(int a, int b) 
+{
      int i=0;
      if (a>b) i=b;
      else i=a;
@@ -12,4 +13,4 @@ int gcd(int a, int b) {
         }
         else --i;
     }
-
+}
